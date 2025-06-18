@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node test-conversion.js",
+    "test": "node --test",
     "health": "curl -s http://localhost:3000/health | jq",
     "status": "curl -s http://localhost:3000/api/v1/status | jq"
   },
